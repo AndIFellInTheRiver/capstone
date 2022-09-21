@@ -1,0 +1,22 @@
+#problem{
+    padding: 100px;
+    border-style: solid dashed;
+    background-color: antiquewhite;
+}
+#prob-state{
+    padding-top: 20px;
+    
+}
+
+#need{
+    padding: 100px;
+    background-color: gainsboro;
+    border-style: solid dashed;
+}
+#need-state{
+    padding-top:20px;
+}
+
+#bottom-row{
+    border: groove gray 3px;
+}
