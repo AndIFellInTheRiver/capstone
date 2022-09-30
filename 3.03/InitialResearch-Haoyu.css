@@ -27,6 +27,9 @@
     text-align: center;
     color: white;
     padding: 1em 1em;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
@@ -44,10 +47,10 @@
     animation-fill-mode: forwards;
 }
 
-#bottom-row{
-    animation: fadeIn ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+a{
+    text-decoration: none;
 }
+
+
 
 
