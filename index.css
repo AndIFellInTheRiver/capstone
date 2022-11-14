@@ -1,3 +1,9 @@
 a{
     text-decoration: none;
+    color: white
+}
+
+button{
+    background-color: black;
+    border:gray groove 2px ;
 }
