@@ -1,0 +1,91 @@
+.rootCauses{
+    padding: 50px;
+    border-style: solid dashed;
+    background-color: #18191A;
+    text-align: center;
+    color: white;
+}
+.causes-state{
+    padding-top: 20px;
+    
+}
+
+#need{
+    padding: 100px;
+    background-color: #18191A;
+    text-align: center;
+    color: white;
+    border-style: solid dashed;
+}
+#need-state{
+    padding-top:20px;
+}
+
+#evidence-row1{
+    border-left: groove gray 3px;
+    border-right: groove gray 3px;
+    background-color: #18191A;
+    text-align: center;
+    color: white;
+    padding: 1em 1em;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#evidence-row2{
+    border-left: groove gray 3px;
+    border-right: groove gray 3px;
+    border-bottom:  groove gray 3px;
+    background-color: #18191A;
+    text-align: center;
+    color: white;
+    padding: 1em 1em;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#imply-row1{
+    border-top: groove gray 3px;
+    border-bottom:  groove gray 3px;
+    background-color: #18191A;
+    text-align: center;
+    color: white;
+    padding: 1em 1em;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.imply-mid{
+    border-right:solid gray 3px ;
+    padding-right: 35px;
+}
+
+.evidence-mid{
+    border-right: solid gray 3px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.col{
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
