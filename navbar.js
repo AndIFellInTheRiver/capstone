@@ -68,7 +68,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="../practiceassessmenthaoyu10-aug-26.html"
+                      href="../3.01/practiceassessmenthaoyu10-aug-26.html"
                       target="blank"
                       >Adopt Puppy</a
                     >
@@ -76,7 +76,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="../CSS_Assessment-sep-9.html"
+                      href="../3.01/CSS_Assessment-sep-9.html"
                       target="blank"
                       >CSS</a
                     >
