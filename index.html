@@ -1,8 +1,31 @@
-const body = document.querySelector("body");
-const nav = document.createElement("nav");
-nav.className = "navbar navbar-expand-lg navbar-dark bg-dark";
-nav.innerHTML = `<div class="container-fluid ">
-<a class="navbar-brand" href="../index.html">Haoyu Capstone</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      href="index.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+       <!-- NAVBAR -->
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="index.html">Haoyu Capstone</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -20,12 +43,12 @@ nav.innerHTML = `<div class="container-fluid ">
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="../3.02/bootstrap5_project_main.html"
+                  href="3.02/bootstrap5_project_main.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../3.02/bootstrap5_project_signup.html"
+                <a class="nav-link" href="3.02/bootstrap5_project_signup.html"
                   >Signup</a
                 >
               </li>
@@ -42,15 +65,15 @@ nav.innerHTML = `<div class="container-fluid ">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="../assessment1-aug-31.html"
-                      
+                      href="assessment1-aug-31.html"
+                      target="blank"
                       >Plant trees</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item"
-                      href="../assessment2-aug-31.html"
+                      href="assessment2-aug-31.html"
                       
                       >Why Plant Trees</a
                     >
@@ -59,7 +82,7 @@ nav.innerHTML = `<div class="container-fluid ">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="../practiceassessmenthaoyu-aug-24.html"
+                      href="practiceassessmenthaoyu-aug-24.html"
                       
                       >Why flask</a
                     >
@@ -68,7 +91,7 @@ nav.innerHTML = `<div class="container-fluid ">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="../practiceassessmenthaoyu10-aug-26.html"
+                      href="practiceassessmenthaoyu10-aug-26.html"
                       
                       >Adopt Puppy</a
                     >
@@ -76,7 +99,7 @@ nav.innerHTML = `<div class="container-fluid ">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="../3.01/CSS_Assessment-sep-9.html"
+                      href="3.01/CSS_Assessment-sep-9.html"
                       
                       >CSS</a
                     >
@@ -97,7 +120,7 @@ nav.innerHTML = `<div class="container-fluid ">
                     <li>
                       <a
                         class="dropdown-item"
-                        href="../3.03/Research-Haoyu.html"
+                        href="3.03/Research-Haoyu.html"
                         target="blank"
                         >Research</a
                       >
@@ -105,7 +128,7 @@ nav.innerHTML = `<div class="container-fluid ">
                     <li>
                       <a
                         class="dropdown-item"
-                        href="../3.03/InitialResearch-Haoyu.html"
+                        href="3.03/InitialResearch-Haoyu.html"
                         target="blank"
                         >Initial Research</a
                       >
@@ -113,7 +136,7 @@ nav.innerHTML = `<div class="container-fluid ">
                     <li>
                       <a
                         class="dropdown-item"
-                        href="../3.03/RootCauses-Haoyu.html"
+                        href="3.03/RootCauses-Haoyu.html"
                         target="blank"
                         >Root Causes</a
                       >
@@ -121,7 +144,7 @@ nav.innerHTML = `<div class="container-fluid ">
                     <li>
                       <a
                         class="dropdown-item"
-                        href="../3.03/CaseStudy-Haoyu.html"
+                        href="3.03/CaseStudy-Haoyu.html"
                         target="blank"
                         >Case Study</a
                       >
@@ -137,6 +160,31 @@ nav.innerHTML = `<div class="container-fluid ">
             </ul>
 
           </div>
-        </div>`;
+        </div>
 
-body.prepend(nav);
+      </nav>
+
+    <button>
+      <a href="assessment1-aug-31.html" target="_blank">Plant trees</a>
+    </button>
+    <button>
+      <a href="assessment2-aug-31.html" target="_blank">Why plant trees</a>
+    </button>
+    <button>
+      <a href="practiceassessmenthaoyu-aug-24.html" target="_blank"
+        >Why flask</a
+      >
+    </button>
+    <button>
+      <a href="practiceassessmenthaoyu10-aug-26.html" target="_blank"
+        >Adopt puppy</a
+      >
+    </button>
+    <button>
+      <a href="3.01\CSS_Assessment-sep-9.html" target="_blank">CSS asses</a>
+    </button>
+    <button>
+      <a href="3.02\bootstrap5_project_main.html" target="_blank">Bootstrap</a>
+    </button>
+  </body>
+</html>
