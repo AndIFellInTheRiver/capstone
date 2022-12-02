@@ -1,8 +1,8 @@
 const body = document.querySelector("body");
 const nav = document.createElement("nav");
 nav.className = "navbar navbar-expand-lg navbar-dark bg-dark";
-nav.innerHTML = `<div class="container-fluid">
-<a class="navbar-brand" href="../index.html">Haoyu Capstone</a>
+nav.innerHTML = `<div class="container-fluid ">
+<a class="navbar-brand" href="../index/index.html">Haoyu Capstone</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -135,17 +135,7 @@ nav.innerHTML = `<div class="container-fluid">
   
               
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+
           </div>
         </div>`;
 
